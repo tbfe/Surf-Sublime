@@ -31,7 +31,7 @@ tbdisableInput|disableInput
 
 ##贡献
 ###新增 snippet
-1. Toos > new snippet ，代码片实例如下，后缀名为`sublime-snippet`
+1. Tools > New Snippet，代码片段示例如下，后缀名为`sublime-snippet`
 
   ```
   <!-- Optional:代码片段 ，对某些特殊字符转义,$1,$2代表tab跳转到的位置-->
@@ -53,6 +53,6 @@ tbdisableInput|disableInput
 4. 提交。
 
 ## 参考文档
-http://docs.sublimetext.info/en/latest/extensibility/snippets.html
-http://www.cnblogs.com/yili16438/p/3734343.html
-http://mandymadethis.com/sharing-sublime-text-snippets/
+- http://docs.sublimetext.info/en/latest/extensibility/snippets.html
+- http://www.cnblogs.com/yili16438/p/3734343.html
+- http://mandymadethis.com/sharing-sublime-text-snippets/
