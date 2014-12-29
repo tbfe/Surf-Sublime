@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/*
+ * @desp:${1:xx}
+ * @para ${2:xx}
+ * @para ${3:xx}
+ * @return ${4:xx}
+ */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tbfunnote</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>fun note</description>
+</snippet>

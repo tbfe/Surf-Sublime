@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+\$.disableInput(${1:\$input}, function(inputValue){
+	var isDisabled = true;
+	$2
+	return isDisabled;
+}, function(keyCode){
+	var isDisabled = true;
+	$3
+	return isDisabled;
+}) 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tbdisableInput</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>$.disableInput</description>
+</snippet>

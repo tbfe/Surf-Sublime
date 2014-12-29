@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+/*
+ * @author: ${1:yourName}
+ * @time: 2014-${2:01}-${3:01}
+ */
+F.module("${4:test}/widget/${5:test}", function (require, exports) {
+
+    exports = _.Widget.extend({
+        events: {
+
+        },
+        initialize: function (opts) {
+
+        }
+    });
+    return exports;
+}, []);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tbwidget</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>genn a wiget js</description>
+</snippet>

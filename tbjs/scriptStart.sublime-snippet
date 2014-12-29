@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<?php HTML::scriptStart(); ?>
+    <script>
+        F.use('${1:test}/widget/${2:test}', function (test) {
+            var test = new test({
+                \$el: \$(${3:'.test'}),
+                conf: {
+					${4:}
+                }
+            });
+        })
+    </script>
+<?php HTML::scriptEnd(); ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tbscriptStart</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<despcrition>use js in php</despcrition>
+</snippet>

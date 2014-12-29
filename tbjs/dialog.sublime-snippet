@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+new  \$.dialog({
+    "html" : ${1:html}, //内容
+    "title" : ${2:title},  //标题
+    "draggable" : false,  //不可以拖拽
+    "closeable" : false  //没有关闭按钮
+});
+]]></content>
+<scope>source.js</scope>
+<tabTrigger>tbdialog</tabTrigger> 
+<description>$.dialog</description>
+</snippet>
