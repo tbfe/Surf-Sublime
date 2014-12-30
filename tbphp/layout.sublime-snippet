@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+/**
+ *
+ * @author ${1:'yourName'}
+ * @desc ${2:'描述'}
+ * @date ${3:2014}-${4:01}-${5:01}
+ */
+  \$_layout = $__layout__->load('tb_skeleton', array(
+      'common_js_pos' => ${6:'after_body'},
+      'product'       => ${7:'platform'},
+      'page'          => ${8:'cctv_vote'},
+      'user'          => \$user,
+      'forum'         => \$forum,
+      'no_user_bar'   => ${9:1},
+      'noFooter'      => ${10:true},
+  ), 'pcommon');
+  \$_layout->setBlock('title', '百度贴吧_'${11});
+  \$_layout->startBlock('content');
+  \$__widget__->load('test', array());
+  \$_layout->endBlock('content');
+  \$_layout->render();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tblayout</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

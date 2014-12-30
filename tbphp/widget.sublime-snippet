@@ -1,15 +1,14 @@
 <snippet>
 	<content><![CDATA[
-/*
- * @desp:${1:xx}
- * @para ${2:xx}
- * @para ${3:xx}
- * @return ${4:xx}
- */
+
+\$__widget__->load('$1', array(
+		$2 
+	));
+
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>tbfunnote</tabTrigger>
+	<tabTrigger>tbwidget</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.js,source.php</scope>
-	<description>fun note</description>
+	<scope>source.php</scope>
+	<description>load widget</description>
 </snippet>

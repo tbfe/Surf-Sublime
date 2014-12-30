@@ -1,15 +1,10 @@
 <snippet>
 	<content><![CDATA[
-/*
- * @desp:${1:xx}
- * @para ${2:xx}
- * @para ${3:xx}
- * @return ${4:xx}
- */
+\$${1:test} = \$this->getPageData('${2:test}');
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>tbfunnote</tabTrigger>
+	<tabTrigger>tbgetPageData</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.js,source.php</scope>
-	<description>fun note</description>
+	<scope>source.php</scope>
+	<description>getPageData</description>
 </snippet>

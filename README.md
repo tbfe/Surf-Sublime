@@ -11,7 +11,7 @@ Tieba 常用代码片段 for Sublime Text 2/3。
 
 ##使用
 下面是可用命令列表，输入会有自动提示
-
+###下面tbjs的提示
 |命令|描述|
 |----|----|
 tbwidget|gennate a widget js
@@ -28,6 +28,7 @@ tbfunnote|fun note
 tbrequireInstance|this.requireInstance
 tbalert|alert
 tbdisableInput|disableInput
+###下面是tb php 描述
 
 ##贡献
 ###新增 snippet
