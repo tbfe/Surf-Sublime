@@ -1,13 +1,17 @@
 Tieba Sublime Snippets
 =======
-Tieba 常用代码片段 for Sublime Text 2/3。
+Tieba 常用代码片段 for Sublime Text 2/3。安装方式分为1,2，推荐使用第一种，snippet更新会自动更新本地
 
-##安装
+##安装1-会自动更新
 
 1. 打开 Package Control（快捷键：`shift + cmd + P`），找到命令`Package Control: Add Repository`并执行；
 2. 键入`https://github.com/tbfe/Tieba-Sublime-Snippets`；
 3. 再次打开 Package Control（快捷键：`shift + cmd + P`），找到命令`Package Control: Install Package`并执行；
 4. 找到`Tieba-Sublime-Snippets`回车完成安装。
+
+
+##安装2-不会自动更新
+1.clone项目，把下面后缀名sublime-snippet的文件放在`{SublimeTextData}/Package/User`
 
 ##使用
 下面是可用命令列表，输入会有自动提示
@@ -29,6 +33,15 @@ tbrequireInstance|this.requireInstance
 tbalert|alert
 tbdisableInput|disableInput
 ###下面是tb php 描述
+|命令|描述|
+|----|----|
+tblayout|layout invoke
+tbwidget|load widget
+tbgetPageData|getPageData
+tbscriptStart|use js in php
+tbskeleton|gennate a common layout
+tbfunnote|the same to tbjs tbfunnote
+
 
 ##贡献
 ###新增 snippet
@@ -49,7 +62,7 @@ tbdisableInput|disableInput
 	<description>$.JsLoadManager</description>
   </snippet>
   ```
-2. 该文档默认会保存至`{SublimeTextData}/Package/User`目录下，可在本地测试。
+2. 执行上面安装，该文档默认会保存至`{SublimeTextData}/Package/Tieba-Sublime-Snippets`目录下，可在本地测试。
 3. 将该文件复制到本项目目录，更新 Readme 中的「命令列表」部分。
 4. 提交。
 
