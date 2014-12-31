@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<!--${1:DESC}-->
+<div class="form-group">
+    <label class="control-label col-sm-3" for="${2:INPUT_NAME}">
+		${3:TITLE}
+    </label>
+    <div class="col-sm-9">
+        ${4}
+    </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ng-form-group</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.html</scope> -->
+</snippet>

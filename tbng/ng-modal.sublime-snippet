@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<modal ng-show="${1:OBJ_NAME}">
+    <form name="${2:FORM_NAME}" class="form-horizontal" novalidate>
+
+        <modal-header>
+            ${3:TITLE}
+        </modal-header>
+
+        <modal-body>
+        	${4}
+        </modal-body>
+
+        <modal-footer>
+            ${5}
+        </modal-footer>
+
+    </form>
+</modal>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ng-modal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

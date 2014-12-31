@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="text-warning" ng-show="${1:FORM_NAME}.${2:INPUT_NAME}.dirty && ${3:FORM_NAME}.${4:INPUT_NAME}.\$error.${5:ERROR_TYPE}">
+    ${6:ERROR_DESC}
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ng-input-error</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
