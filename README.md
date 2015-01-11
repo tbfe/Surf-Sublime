@@ -5,9 +5,9 @@ Tieba 常用代码片段 for Sublime Text 2/3。安装方式分为1,2，推荐�
 ##安装1-会自动更新
 
 1. 打开 Package Control（快捷键：`shift + cmd + P`），找到命令`Package Control: Add Repository`并执行；
-2. 键入`https://github.com/tbfe/Tieba-Sublime-Snippets`；
-3. 再次打开 Package Control（快捷键：`shift + cmd + P`），找到命令`Package Control: Install Package`并执行；
-4. 找到`Tieba-Sublime-Snippets`回车完成安装。
+2. 键入`https://github.com/tbfe/Surf-Sublime`；
+3. 再次打开 Package Control（快捷键：`shift + cmd + P`），找到命令`Package Control: Install Package`并执行；如果之前已经安装，则搜素Update Package
+4. 找到`Surf-Sublime`回车完成安装。
 
 
 ##安装2-不会自动更新
@@ -39,7 +39,6 @@ tblayout|layout invoke
 tbwidget|load widget
 tbgetPageData|getPageData
 tbscriptStart|use js in php
-tbskeleton|gennate a common layout
 tbfunnote|the same to tbjs tbfunnote
 
 
