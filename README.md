@@ -54,6 +54,10 @@ tbng-input-text|simple text input for ngmis
 tbng-input-image|image input for ngmis
 tbng-modal|modal template for ngmis
 
+##问题
+1. 支持angular的suggestion提示，需要你修改sublime的设置，把对html文本支持提示suggestion
+2. Preferences => Setting User => 在json中添加"auto_complete_selector": "source, text",
+
 ## 贡献
 ### 新增 snippet
 1. Tools > New Snippet，代码片段示例如下，后缀名为`sublime-snippet`。另外请注意，`*.html`文件作为标记语言的scope值应为`text.html`(参考:[Syntax Definitions](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html?highlight=scope))
