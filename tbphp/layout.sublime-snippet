@@ -6,7 +6,7 @@
  * @desc ${2:'描述'}
  * @date ${3:2014}-${4:01}-${5:01}
  */
-  \$_layout = $__layout__->load('tb_skeleton', array(
+  \$_layout = \$__layout__->load('tb_skeleton', array(
       'common_js_pos' => ${6:'after_body'},
       'product'       => ${7:'platform'},
       'page'          => ${8:'cctv_vote'},
