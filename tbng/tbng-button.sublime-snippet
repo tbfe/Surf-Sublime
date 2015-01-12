@@ -3,7 +3,7 @@
 <button class="btn btn-${1:info}" ng-click="${2:do()}" ng-disabled="${3}">${4:BUTTON_TEXT}</button>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ng-button</tabTrigger>
+	<tabTrigger>tbng-button</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
 	<description>button for ngmis</description>

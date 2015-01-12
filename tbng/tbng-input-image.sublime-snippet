@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+<p ng-show="${1}">
+    现有图片：{{${1}}}
+</p>
+<input-image
+        name="${2:INPUT_NAME}"
+        ng-model="${1}"
+        id="${2:INPUT_NAME}"
+        upload-to="ngmis"
+        ng-required="false"
+        width-limit="${3:WIDTH}"
+        height-limit="${4:HEIGHT}"
+        enabled-formats="['png', 'jpg']"
+        >
+</input-image>
+<span class="text-danger">
+    ${3:WIDTH}
+    x
+    ${4:HEIGHT}
+    px
+    格式:
+    png,jpg
+</span>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tbng-input-image</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html</scope>
+    <description>image input for ngmis</description>
+</snippet>

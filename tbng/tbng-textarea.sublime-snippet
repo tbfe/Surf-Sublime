@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<textarea 
+	name="${1:TEXTAREA_NAME}" 
+	ng-model="${2}" 
+	id="${1:TEXTAREA_NAME}" 
+	class="form-control" 
+	placeholder="${3:PLACEHOLDER}" 
+	ng-required="${4:true}">
+</textarea>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tbng-textarea</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html</scope>
+    <description>simple textarea for ngmis</description>
+</snippet>

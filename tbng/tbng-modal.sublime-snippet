@@ -19,7 +19,8 @@
 </modal>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ng-modal</tabTrigger>
+	<tabTrigger>tbng-modal</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>text.html</scope>
+    <description>modal template for ngmis</description>
 </snippet>
