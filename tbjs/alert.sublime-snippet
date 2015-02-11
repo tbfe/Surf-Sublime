@@ -1,15 +1,15 @@
 <snippet>
 	<content><![CDATA[
 \$.tb.alert({
-     message: '${1:message}',
-     buttons: [
-                 {
-                     text: ${2:'确认'},
-                     callback: function (index, dialog) {
+    message:'${1:message}',
+    buttons:[
+                {
+                    text: ${2:'确认'},
+                        callback: function (index, dialog) {
                      	dialog.close();
-                     }
-                 }
-             ]
+                    }
+                }
+            ]
 });
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

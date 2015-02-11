@@ -33,6 +33,8 @@ tbfunnote|fun note
 tbrequireInstance|this.requireInstance
 tbalert|alert
 tbdisableInput|disableInput
+tbgetPageData|getPageData
+tbformat|str format
 
 ### 下面是tb php 描述
 |命令|描述|
@@ -42,6 +44,8 @@ tbwidget|load widget
 tbgetPageData|getPageData
 tbscriptStart|use js in php
 tbfunnote|the same to tbjs tbfunnote
+tbext|invoke ext
+tbinput|invoke input
 
 ### 下面是tb ng 描述
 |命令|描述|

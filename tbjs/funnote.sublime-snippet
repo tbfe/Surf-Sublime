@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-/*
- * @desp:${1:xx}
- * @para ${2:xx}
- * @para ${3:xx}
- * @return ${4:xx}
+/**
+ * ${1:函数描述}
+ *
+ * @param {${2:string}} ${3:p1} ${4:参数1的说明}
+ * @return {${5:Object}} ${6:返回值描述}
  */
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
